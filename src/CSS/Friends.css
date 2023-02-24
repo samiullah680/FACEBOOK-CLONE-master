@@ -1,0 +1,22 @@
+
+.friends-div{
+    
+    width: 32%;
+    margin: auto;
+    margin-top: 15vh;
+    text-align: center;
+
+}
+.friend{
+   height: 40vh;
+   text-align: center;
+   border: 2px solid rgb(68, 17, 17);
+   border-radius: 10px;
+   margin: 12px;
+
+}
+.friend>h1{
+    border: 1px solid gray;
+    padding: 10px;
+  
+}

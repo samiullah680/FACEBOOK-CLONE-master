@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    padding: 15px 35px;
+    box-shadow: 4px 4px 4px var(--text-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+}
+#facebook-logo{
+    color: rgb(0, 159, 203);
+    text-decoration: none;
+   
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li{
+    margin: 0px 25px;
+}
+#link{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--text-color);
+ 
+}
+#link:hover{
+    border-bottom: 5px solid rgb(2, 162, 255);
+}
+#theme{
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: bold;
+}
